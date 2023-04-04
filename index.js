@@ -14,7 +14,7 @@ app.use(express.json());
 //get all tvshows
 app.get("/tvshows",getAllTv);
 //add tvshows
-add.post("/tvShows", addNewTv);
+add.post("/tvshows", addNewTv);
 
 
 

@@ -21,4 +21,6 @@ const collection = await db.collection('tvShows')
 const tvShowList = collection.docs.map();
 tvShow => ({...tvShow.data(), id: tvShow.id})
 
+
+res.status(201).send(tvShowlist)
 };
